@@ -968,3 +968,4 @@ void fire_sword(edict_t *self, vec3_t start, vec3_t aimdir, int damage, int kick
 	}
 	return;
 }
+

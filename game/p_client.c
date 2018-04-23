@@ -1747,6 +1747,77 @@ void ClientThink (edict_t *ent, usercmd_t *ucmd)
 		if (other->inuse && other->client->chase_target == ent)
 			UpdateChaseCam(other);
 	}
+
+
+
+	if (client->pers.stance == GUARD_LEFT) {
+		vec3_t forward, right,up,left;
+		vec3_t mouth_pos, spew_vector;
+		float rnum;
+		int i;
+		AngleVectors(ent->client->v_angle, forward, right, up);
+		
+		left[0] = right[0] * -1;
+		left[1] = right[1] * -1;
+		left[2] = right[2] * -1;
+
+		VectorScale(forward, 24, mouth_pos);
+		VectorAdd(mouth_pos, ent->s.origin, mouth_pos);
+		mouth_pos[2] += ent->viewheight;
+
+		VectorScale(left, 24, spew_vector);
+
+		gi.WriteByte(svc_temp_entity);
+		gi.WriteByte(TE_SPARKS);
+		gi.WritePosition(mouth_pos);
+		gi.WriteDir(spew_vector);
+		gi.multicast(mouth_pos, MULTICAST_PVS);
+
+	}
+	else if (client->pers.stance == GUARD_RIGHT) {
+		vec3_t forward, right, up;
+		vec3_t mouth_pos, spew_vector;
+		float rnum;
+		int i;
+		AngleVectors(ent->client->v_angle, forward, right, up);
+
+		
+
+		VectorScale(forward, 24, mouth_pos);
+		VectorAdd(mouth_pos, ent->s.origin, mouth_pos);
+		mouth_pos[2] += ent->viewheight;
+	
+		VectorScale(right, 24, spew_vector);
+
+		gi.WriteByte(svc_temp_entity);
+		gi.WriteByte(TE_SPARKS);
+		gi.WritePosition(mouth_pos);
+		gi.WriteDir(spew_vector);
+		gi.multicast(mouth_pos, MULTICAST_PVS);
+	}
+	else {
+		vec3_t forward, right, up;
+		vec3_t mouth_pos, spew_vector;
+		float rnum;
+		int i;
+		AngleVectors(ent->client->v_angle, forward, right, up);
+
+
+
+		VectorScale(forward, 24, mouth_pos);
+		VectorAdd(mouth_pos, ent->s.origin, mouth_pos);
+		mouth_pos[2] += ent->viewheight + 15;
+
+		VectorScale(up, 24, spew_vector);
+
+		gi.WriteByte(svc_temp_entity);
+		gi.WriteByte(TE_SPARKS);
+		gi.WritePosition(mouth_pos);
+		gi.WriteDir(spew_vector);
+		gi.multicast(mouth_pos, MULTICAST_PVS);
+	}
+
+
 }
 
 

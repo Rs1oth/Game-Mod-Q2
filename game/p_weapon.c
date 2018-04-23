@@ -1200,11 +1200,11 @@ void weapon_sword_fire(edict_t *ent) {
 	int damage;
 	if (deathmatch->value) 
 	{
-		damage = 150;
+		damage = 25;
 	}
 	else 
 	{
-		damage = 100;
+		damage = 25;
 	}
 	sword_attack(ent, vec3_origin, damage);
 	ent->client->ps.gunframe++;

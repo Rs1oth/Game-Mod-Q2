@@ -20,6 +20,17 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 #include "g_local.h"
 #include "m_player.h"
 
+static void P_ProjectSource(gclient_t *client, vec3_t point, vec3_t distance, vec3_t forward, vec3_t right, vec3_t result)
+{
+	vec3_t	_distance;
+
+	VectorCopy(distance, _distance);
+	if (client->pers.hand == LEFT_HANDED)
+		_distance[1] *= -1;
+	else if (client->pers.hand == CENTER_HANDED)
+		_distance[1] = 0;
+	G_ProjectSource(point, _distance, forward, right, result);
+}
 
 char *ClientTeam (edict_t *ent)
 {
@@ -918,6 +929,75 @@ void Cmd_StanceTop(edict_t *ent)
 	
 }
 
+void Cmd_HeavyAttack(edict_t *ent)
+{
+	int damage = 50;
+	int kick = 500;
+	vec3_t g_offset;
+	vec3_t forward, right, start, offset;
+
+	g_offset[0] = vec3_origin[0];
+	g_offset[1] = vec3_origin[1];
+	g_offset[2] = vec3_origin[2];
+
+	AngleVectors(ent->client->v_angle, forward, right, NULL);
+	VectorSet(offset, 24, 8, ent->viewheight - 8);
+	VectorAdd(offset, g_offset, offset);
+
+	P_ProjectSource(ent->client, ent->s.origin, offset, forward, right, start);
+	VectorScale(forward, -2, ent->client->kick_origin);
+	ent->client->kick_angles[0] = -1;
+	
+	trace_t tr;
+	vec3_t dir;
+	vec3_t up;
+	vec3_t end;
+
+	tr = gi.trace(ent->s.origin, NULL, NULL, start, ent, MASK_SHOT);
+
+	if (!(tr.fraction < 1.0))
+	{
+		vectoangles(forward, dir);
+		AngleVectors(dir, forward, right, up);
+
+		VectorMA(start, 8192, forward, end);
+	}
+
+	if (!((tr.surface) && (tr.surface->flags & SURF_SKY)))
+	{
+		if (tr.fraction < 1.0)
+		{
+			if (tr.ent->takedamage)
+			{
+				if (ent->client->pers.stance != tr.ent->client->pers.stance) {
+					T_Damage(tr.ent, ent, ent, forward, tr.endpos, tr.plane.normal, damage, kick, 0, 0);
+				}
+				else {
+					gi.cprintf(ent, PRINT_HIGH, "Oppoenent Blocked\n");
+				}
+			}
+			else
+			{
+				if (strncmp(tr.surface->name, "sky", 3) != 0)
+				{
+					gi.WriteByte(svc_temp_entity);
+					gi.WriteByte(TE_GUNSHOT);
+					gi.WritePosition(tr.endpos);
+					gi.WriteDir(tr.plane.normal);
+					gi.multicast(tr.endpos, MULTICAST_PVS);
+
+					if (ent->client)
+					{
+						PlayerNoise(ent, tr.endpos, PNOISE_IMPACT);
+					}
+				}
+			}
+		}
+	}
+
+	ent->client->ps.gunframe++;
+}
+
 /*
 =================
 ClientCommand
@@ -1011,6 +1091,8 @@ void ClientCommand (edict_t *ent)
 		Cmd_StanceRight(ent);
 	else if (Q_stricmp(cmd, "stancetop") == 0)
 		Cmd_StanceTop(ent);
+	else if (Q_stricmp(cmd, "heavyattack") == 0)
+		Cmd_HeavyAttack(ent);
 	else	// anything that doesn't match a command will be a chat
 		Cmd_Say_f (ent, false, true);
 }
