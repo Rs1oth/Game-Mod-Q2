@@ -1,1 +1,582 @@
-﻿  quake2.vcxproj -> C:\Users\ryana\Desktop\git2018\Game-Mod-Q2\.\release\quake2.exe
+﻿  cl_cin.c
+client\cl_cin.c(557): warning C4057: 'function': 'const unsigned char *' differs in indirection to slightly different base types from 'char [768]'
+  cl_ents.c
+client\cl_ents.c(415): warning C4057: 'function': 'unsigned int *' differs in indirection to slightly different base types from 'int *'
+client\cl_ents.c(797): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_ents.c(805): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cl_fx.c
+client\cl_fx.c(2044): warning C4456: declaration of 'j' hides previous local declaration
+  client\cl_fx.c(1996): note: see declaration of 'j'
+client\cl_fx.c(2045): warning C4456: declaration of 'p' hides previous local declaration
+  client\cl_fx.c(1997): note: see declaration of 'p'
+  cl_input.c
+  cl_inv.c
+  cl_main.c
+client\cl_main.c(162): warning C4459: declaration of 'name' hides global declaration
+  client\cl_main.c(79): note: see declaration of 'name'
+client\cl_main.c(209): warning C4057: 'function': 'byte *' differs in indirection to slightly different base types from 'char [1400]'
+client\cl_main.c(195): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+client\cl_main.c(313): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(314): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(318): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(319): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(322): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1349): note: see declaration of 'putenv'
+client\cl_main.c(326): warning C4996: 'getenv': This function or variable may be unsafe. Consider using _dupenv_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1183): note: see declaration of 'getenv'
+client\cl_main.c(457): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\cl_main.c(520): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\cl_main.c(546): warning C4310: cast truncates constant value
+client\cl_main.c(547): warning C4310: cast truncates constant value
+client\cl_main.c(548): warning C4310: cast truncates constant value
+client\cl_main.c(549): warning C4310: cast truncates constant value
+client\cl_main.c(554): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(556): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(557): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(561): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(562): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(646): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(647): warning C4057: 'function': 'const char *' differs in indirection to slightly different base types from 'byte [32]'
+client\cl_main.c(648): warning C4057: 'function': 'const char *' differs in indirection to slightly different base types from 'byte [32]'
+client\cl_main.c(649): warning C4057: 'function': 'const char *' differs in indirection to slightly different base types from 'byte [32]'
+client\cl_main.c(702): warning C4310: cast truncates constant value
+client\cl_main.c(803): warning C4459: declaration of 'name' hides global declaration
+  client\cl_main.c(79): note: see declaration of 'name'
+client\cl_main.c(1063): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\cl_main.c(1234): warning C4459: declaration of 'skin' hides global declaration
+  client\cl_main.c(80): note: see declaration of 'skin'
+client\cl_main.c(1248): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(1254): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_main.c(1315): warning C4389: '!=': signed/unsigned mismatch
+client\cl_main.c(1353): warning C4456: declaration of 'fn' hides previous local declaration
+  client\cl_main.c(1120): note: see declaration of 'fn'
+client\cl_main.c(1355): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+client\cl_main.c(1565): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  cl_newfx.c
+client\cl_newfx.c(279): warning C4100: 'ent': unreferenced formal parameter
+  cl_parse.c
+client\cl_parse.c(85): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_parse.c(91): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_parse.c(100): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+client\cl_parse.c(155): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_parse.c(162): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_parse.c(229): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+client\cl_parse.c(327): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\cl_parse.c(368): warning C4057: 'function': 'unsigned int *' differs in indirection to slightly different base types from 'int *'
+client\cl_parse.c(418): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_parse.c(427): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_parse.c(434): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_parse.c(448): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_parse.c(390): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\cl_parse.c(394): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\cl_parse.c(528): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_parse.c(784): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+  cl_pred.c
+  cl_scrn.c
+client\cl_scrn.c(202): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\cl_scrn.c(803): warning C4459: declaration of 'current' hides global declaration
+  client\cl_scrn.c(124): note: see declaration of 'current'
+client\cl_scrn.c(1080): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  cl_tent.c
+client\cl_tent.c(161): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+client\cl_tent.c(1437): warning C4456: declaration of 'len' hides previous local declaration
+  client\cl_tent.c(1355): note: see declaration of 'len'
+  cl_view.c
+client\cl_view.c(263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_view.c(281): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_view.c(285): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\cl_view.c(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\cl_view.c(339): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+client\cl_view.c(444): warning C4210: nonstandard extension used: function given file scope
+  console.c
+client\console.c(161): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+client\console.c(184): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\console.c(437): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\console.c(438): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\console.c(649): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\console.c(651): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\console.c(652): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\console.c(647): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\console.c(669): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+  keys.c
+client\keys.c(178): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\keys.c(243): warning C4013: 'toupper' undefined; assuming extern returning int
+client\keys.c(261): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\keys.c(321): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\keys.c(343): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\keys.c(252): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+client\keys.c(522): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\keys.c(599): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\keys.c(601): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  menu.c
+client\menu.c(421): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(422): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(513): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(518): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(523): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1036): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1041): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1046): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1051): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1056): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1061): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1066): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1108): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1116): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1128): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1133): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1138): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1143): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1153): warning C4210: nonstandard extension used: function given file scope
+client\menu.c(1148): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1168): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1907): warning C4100: 'data': unreferenced formal parameter
+client\menu.c(1913): warning C4100: 'data': unreferenced formal parameter
+client\menu.c(1919): warning C4100: 'data': unreferenced formal parameter
+client\menu.c(1925): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1930): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(1935): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(2058): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2055): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+client\menu.c(2245): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\menu.c(2268): warning C4100: 'self': unreferenced formal parameter
+client\menu.c(2273): warning C4100: 'self': unreferenced formal parameter
+client\menu.c(2283): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2297): warning C4100: 'self': unreferenced formal parameter
+client\menu.c(2332): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2392): warning C4100: 'self': unreferenced formal parameter
+client\menu.c(2411): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2399): warning C4100: 'self': unreferenced formal parameter
+client\menu.c(2444): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2436): warning C4100: 'self': unreferenced formal parameter
+client\menu.c(2581): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2585): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2589): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2641): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2651): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2668): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2670): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2680): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(2538): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+client\menu.c(2546): warning C4996: 'filelength': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _filelength. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\corecrt_io.h(484): note: see declaration of 'filelength'
+client\menu.c(3315): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3387): warning C4100: 'self': unreferenced formal parameter
+client\menu.c(3392): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(3397): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(3403): warning C4100: 'unused': unreferenced formal parameter
+client\menu.c(3429): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3431): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3451): warning C4210: nonstandard extension used: function given file scope
+client\menu.c(3490): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3491): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3502): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3503): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3533): warning C4456: declaration of 'a' hides previous local declaration
+  client\menu.c(3480): note: see declaration of 'a'
+client\menu.c(3533): warning C4456: declaration of 'b' hides previous local declaration
+  client\menu.c(3480): note: see declaration of 'b'
+client\menu.c(3533): warning C4456: declaration of 'c' hides previous local declaration
+  client\menu.c(3480): note: see declaration of 'c'
+client\menu.c(3547): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3572): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3552): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+client\menu.c(3571): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\menu.c(3628): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3632): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3637): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3642): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3643): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3680): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\menu.c(3769): warning C4210: nonstandard extension used: function given file scope
+client\menu.c(3786): warning C4189: 'maxframe': local variable is initialized but not referenced
+  qmenu.c
+client\qmenu.c(94): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\qmenu.c(204): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(453): note: see declaration of 'strtok'
+client\qmenu.c(206): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+client\qmenu.c(421): warning C4189: 'maxrow': local variable is initialized but not referenced
+client\qmenu.c(667): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\qmenu.c(670): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  snd_dma.c
+client\snd_dma.c(243): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\snd_dma.c(263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\snd_dma.c(279): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\snd_dma.c(606): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\snd_dma.c(614): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\snd_dma.c(910): warning C4459: declaration of 'channels' hides global declaration
+  client\snd_dma.c(42): note: see declaration of 'channels'
+client\snd_dma.c(1170): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\snd_dma.c(1171): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\snd_dma.c(1174): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  snd_mem.c
+client\snd_mem.c(125): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+client\snd_mem.c(233): warning C4057: 'function': 'const char *' differs in indirection to slightly different base types from 'byte *'
+client\snd_mem.c(283): warning C4057: 'function': 'const char *' differs in indirection to slightly different base types from 'byte *'
+client\snd_mem.c(324): warning C4057: 'function': 'const char *' differs in indirection to slightly different base types from 'byte *'
+  snd_mix.c
+client\snd_mix.c(158): warning C4456: declaration of 'count' hides previous local declaration
+  client\snd_mix.c(146): note: see declaration of 'count'
+client\snd_mix.c(188): warning C4310: cast truncates constant value
+client\snd_mix.c(189): warning C4310: cast truncates constant value
+client\snd_mix.c(203): warning C4310: cast truncates constant value
+client\snd_mix.c(204): warning C4310: cast truncates constant value
+client\snd_mix.c(399): warning C4100: 'offset': unreferenced formal parameter
+client\snd_mix.c(399): warning C4100: 'count': unreferenced formal parameter
+client\snd_mix.c(399): warning C4100: 'sc': unreferenced formal parameter
+client\snd_mix.c(399): warning C4100: 'ch': unreferenced formal parameter
+  x86.c
+  Generating Code...
+c:\users\ryana\desktop\git2018\game-mod-q2\client\menu.c(3580): warning C4715: 'PlayerConfig_ScanDirectories': not all control paths return a value
+c:\users\ryana\desktop\git2018\game-mod-q2\client\console.c(370): warning C4706: assignment within conditional expression
+c:\users\ryana\desktop\git2018\game-mod-q2\client\cl_tent.c(1565): warning C4701: potentially uninitialized local variable 'framenum' used
+c:\users\ryana\desktop\git2018\game-mod-q2\client\cl_input.c(479): warning C4700: uninitialized local variable 'buf' used
+c:\users\ryana\desktop\git2018\game-mod-q2\client\cl_fx.c(2228): warning C4701: potentially uninitialized local variable 'time' used
+c:\users\ryana\desktop\git2018\game-mod-q2\client\cl_ents.c(494): warning C4701: potentially uninitialized local variable 'oldstate' used
+c:\users\ryana\desktop\git2018\game-mod-q2\client\cl_ents.c(494): warning C4703: potentially uninitialized local pointer variable 'oldstate' used
+  Compiling...
+  m_flash.c
+  q_shared.c
+game\q_shared.c(266): warning C4100: 'f': unreferenced formal parameter
+game\q_shared.c(312): warning C4459: declaration of 'i' hides global declaration
+  game\q_shared.c(305): note: see declaration of 'i'
+game\q_shared.c(315): warning C4459: declaration of 'corners' hides global declaration
+  game\q_shared.c(306): note: see declaration of 'corners'
+game\q_shared.c(418): warning C4100: 'p': unreferenced formal parameter
+game\q_shared.c(418): warning C4100: 'emaxs': unreferenced formal parameter
+game\q_shared.c(418): warning C4100: 'emins': unreferenced formal parameter
+game\q_shared.c(658): warning C4459: declaration of 'i' hides global declaration
+  game\q_shared.c(305): note: see declaration of 'i'
+game\q_shared.c(764): warning C4459: declaration of 'i' hides global declaration
+  game\q_shared.c(305): note: see declaration of 'i'
+game\q_shared.c(841): warning C4459: declaration of 'i' hides global declaration
+  game\q_shared.c(305): note: see declaration of 'i'
+game\q_shared.c(876): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+game\q_shared.c(897): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+game\q_shared.c(923): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+game\q_shared.c(1056): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+game\q_shared.c(1163): warning C4459: declaration of 'i' hides global declaration
+  game\q_shared.c(305): note: see declaration of 'i'
+game\q_shared.c(1230): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+game\q_shared.c(1234): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+game\q_shared.c(1334): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cmd.c
+qcommon\cmd.c(161): warning C4057: 'function': 'char *' differs in indirection to slightly different base types from 'byte [8192]'
+qcommon\cmd.c(318): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(320): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(339): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(340): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(463): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(470): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(472): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(474): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(588): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(589): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(591): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(587): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+qcommon\cmd.c(660): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmd.c(678): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  cmodel.c
+qcommon\cmodel.c(195): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+qcommon\cmodel.c(196): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+qcommon\cmodel.c(629): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\cmodel.c(1380): warning C4456: declaration of 'i' hides previous local declaration
+  qcommon\cmodel.c(1354): note: see declaration of 'i'
+qcommon\cmodel.c(1380): warning C4459: declaration of 'numleafs' hides global declaration
+  qcommon\cmodel.c(77): note: see declaration of 'numleafs'
+  common.c
+qcommon\common.c(78): warning C4152: nonstandard extension, function/data pointer conversion in expression
+qcommon\common.c(117): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\common.c(107): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+qcommon\common.c(134): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+qcommon\common.c(160): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+qcommon\common.c(186): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+qcommon\common.c(1034): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\common.c(1211): warning C4100: 'challenge': unreferenced formal parameter
+qcommon\common.c(1211): warning C4100: 'sequence': unreferenced formal parameter
+qcommon\common.c(1211): warning C4100: 'length': unreferenced formal parameter
+qcommon\common.c(1211): warning C4100: 'base': unreferenced formal parameter
+qcommon\common.c(1509): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  crc.c
+  cvar.c
+qcommon\cvar.c(435): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  files.c
+qcommon\files.c(222): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+qcommon\files.c(248): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+qcommon\files.c(261): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+qcommon\files.c(489): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\files.c(495): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\files.c(459): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+qcommon\files.c(520): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\files.c(526): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+qcommon\files.c(717): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(552): note: see declaration of 'strdup'
+qcommon\files.c(719): warning C4996: 'strlwr': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strlwr. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(574): note: see declaration of 'strlwr'
+qcommon\files.c(743): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  net_chan.c
+qcommon\net_chan.c(138): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+qcommon\net_chan.c(152): warning C4459: declaration of 'qport' hides global declaration
+  qcommon\net_chan.c(79): note: see declaration of 'qport'
+qcommon\net_chan.c(302): warning C4459: declaration of 'qport' hides global declaration
+  qcommon\net_chan.c(79): note: see declaration of 'qport'
+qcommon\net_chan.c(366): warning C4389: '==': signed/unsigned mismatch
+  pmove.c
+  sv_ccmds.c
+server\sv_ccmds.c(200): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+server\sv_ccmds.c(203): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+server\sv_ccmds.c(254): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_ccmds.c(261): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_ccmds.c(263): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_ccmds.c(286): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+server\sv_ccmds.c(314): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+server\sv_ccmds.c(388): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_ccmds.c(389): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_ccmds.c(346): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+server\sv_ccmds.c(358): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\time.h(505): note: see declaration of 'localtime'
+server\sv_ccmds.c(362): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(255): note: see declaration of 'strncat'
+server\sv_ccmds.c(445): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_ccmds.c(417): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+server\sv_ccmds.c(539): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+server\sv_ccmds.c(616): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+server\sv_ccmds.c(804): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_ccmds.c(813): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_ccmds.c(928): warning C4057: 'function': 'byte *' differs in indirection to slightly different base types from 'char [32768]'
+server\sv_ccmds.c(915): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+  sv_ents.c
+  sv_game.c
+server\sv_game.c(70): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+server\sv_game.c(98): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+server\sv_game.c(126): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+server\sv_game.c(148): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+server\sv_game.c(201): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sv_init.c
+server\sv_init.c(49): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+server\sv_init.c(130): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+server\sv_init.c(195): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_init.c(203): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_init.c(209): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_init.c(222): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_init.c(223): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_init.c(198): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+server\sv_init.c(406): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_init.c(427): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_init.c(434): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  sv_main.c
+server\sv_main.c(118): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_main.c(119): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_main.c(132): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_main.c(296): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+server\sv_main.c(397): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+server\sv_main.c(445): warning C4152: nonstandard extension, function/data pointer conversion in expression
+server\sv_main.c(457): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_main.c(458): warning C4996: 'strcat': This function or variable may be unsafe. Consider using strcat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+server\sv_main.c(907): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+  sv_send.c
+server\sv_send.c(74): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+server\sv_send.c(104): warning C4456: declaration of 'i' hides previous local declaration
+  server\sv_send.c(94): note: see declaration of 'i'
+server\sv_send.c(97): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+server\sv_send.c(140): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+  sv_user.c
+server\sv_user.c(578): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(340): note: see declaration of 'strncpy'
+  sv_world.c
+server\sv_world.c(224): warning C4456: declaration of 'i' hides previous local declaration
+  server\sv_world.c(171): note: see declaration of 'i'
+  cd_win.c
+win32\cd_win.c(377): warning C4389: '!=': signed/unsigned mismatch
+win32\cd_win.c(375): warning C4100: 'uMsg': unreferenced formal parameter
+win32\cd_win.c(375): warning C4100: 'hWnd': unreferenced formal parameter
+  in_win.c
+  Generating Code...
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\in_win.c(520): warning C4701: potentially uninitialized local variable 'mmr' used
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\in_win.c(574): warning C4715: 'RawValuePointer': not all control paths return a value
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\cd_win.c(53): warning C4706: assignment within conditional expression
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\cd_win.c(62): warning C4706: assignment within conditional expression
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\cd_win.c(202): warning C4706: assignment within conditional expression
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\cd_win.c(222): warning C4706: assignment within conditional expression
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\cd_win.c(449): warning C4706: assignment within conditional expression
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\cd_win.c(458): warning C4706: assignment within conditional expression
+c:\users\ryana\desktop\git2018\game-mod-q2\server\sv_game.c(102): warning C4701: potentially uninitialized local variable 'n' used
+c:\users\ryana\desktop\git2018\game-mod-q2\server\sv_ents.c(171): warning C4701: potentially uninitialized local variable 'newent' used
+c:\users\ryana\desktop\git2018\game-mod-q2\server\sv_ents.c(171): warning C4703: potentially uninitialized local pointer variable 'newent' used
+c:\users\ryana\desktop\git2018\game-mod-q2\server\sv_ents.c(171): warning C4701: potentially uninitialized local variable 'oldent' used
+c:\users\ryana\desktop\git2018\game-mod-q2\server\sv_ents.c(171): warning C4703: potentially uninitialized local pointer variable 'oldent' used
+  Compiling...
+  net_wins.c
+win32\net_wins.c(220): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+win32\net_wins.c(201): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(202): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(203): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(204): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(205): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(206): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(207): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(208): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(209): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(210): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(211): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(2254): note: see declaration of 'sscanf'
+win32\net_wins.c(290): warning C4459: declaration of 'net_from' hides global declaration
+  c:\users\ryana\desktop\git2018\game-mod-q2\win32\../qcommon/qcommon.h(599): note: see declaration of 'net_from'
+win32\net_wins.c(290): warning C4459: declaration of 'net_message' hides global declaration
+  c:\users\ryana\desktop\git2018\game-mod-q2\win32\../qcommon/qcommon.h(600): note: see declaration of 'net_message'
+win32\net_wins.c(315): warning C4100: 'to': unreferenced formal parameter
+win32\net_wins.c(331): warning C4459: declaration of 'net_from' hides global declaration
+  c:\users\ryana\desktop\git2018\game-mod-q2\win32\../qcommon/qcommon.h(599): note: see declaration of 'net_from'
+win32\net_wins.c(331): warning C4459: declaration of 'net_message' hides global declaration
+  c:\users\ryana\desktop\git2018\game-mod-q2\win32\../qcommon/qcommon.h(600): note: see declaration of 'net_message'
+win32\net_wins.c(354): warning C4057: 'function': 'char *' differs in indirection to slightly different base types from 'byte *'
+win32\net_wins.c(484): warning C4133: 'function': incompatible types - from 'qboolean *' to 'u_long *'
+win32\net_wins.c(497): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+win32\net_wins.c(529): warning C4459: declaration of 'dedicated' hides global declaration
+  c:\users\ryana\desktop\git2018\game-mod-q2\win32\../qcommon/qcommon.h(754): note: see declaration of 'dedicated'
+win32\net_wins.c(593): warning C4057: 'function': 'u_long *' differs in indirection to slightly different base types from 'int *'
+win32\net_wins.c(633): warning C4459: declaration of 'dedicated' hides global declaration
+  c:\users\ryana\desktop\git2018\game-mod-q2\win32\../qcommon/qcommon.h(754): note: see declaration of 'dedicated'
+  q_shwin.c
+  snd_win.c
+win32\snd_win.c(382): warning C4152: nonstandard extension, function/data pointer conversion in expression
+  sys_win.c
+win32\sys_win.c(76): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+win32\sys_win.c(163): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+win32\sys_win.c(164): warning C4996: 'sprintf': This function or variable may be unsafe. Consider using sprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1769): note: see declaration of 'sprintf'
+win32\sys_win.c(165): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(205): note: see declaration of 'fopen'
+win32\sys_win.c(234): warning C4996: 'GetVersionExA': was declared deprecated
+  C:\Program Files (x86)\Windows Kits\8.1\Include\um\sysinfoapi.h(433): note: see declaration of 'GetVersionExA'
+win32\sys_win.c(277): warning C4057: 'function': 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+win32\sys_win.c(283): warning C4057: 'function': 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+win32\sys_win.c(298): warning C4057: 'function': 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+win32\sys_win.c(312): warning C4057: 'function': 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+win32\sys_win.c(321): warning C4057: 'function': 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+win32\sys_win.c(359): warning C4057: 'function': 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+win32\sys_win.c(362): warning C4057: 'function': 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+win32\sys_win.c(365): warning C4057: 'function': 'LPDWORD' differs in indirection to slightly different base types from 'int *'
+win32\sys_win.c(415): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+win32\sys_win.c(538): warning C4152: nonstandard extension, function/data pointer conversion in expression
+win32\sys_win.c(655): warning C4996: '_controlfp': This function or variable may be unsafe. Consider using _controlfp_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\float.h(232): note: see declaration of '_controlfp'
+win32\sys_win.c(594): warning C4100: 'nCmdShow': unreferenced formal parameter
+  vid_dll.c
+win32\vid_dll.c(123): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+win32\vid_dll.c(148): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdio.h(1465): note: see declaration of 'vsprintf'
+win32\vid_dll.c(441): warning C4210: nonstandard extension used: function given file scope
+win32\vid_dll.c(512): warning C4100: 'y': unreferenced formal parameter
+win32\vid_dll.c(512): warning C4100: 'x': unreferenced formal parameter
+win32\vid_dll.c(594): warning C4152: nonstandard extension, function/data pointer conversion in expression
+win32\vid_dll.c(605): warning C4152: nonstandard extension, function/data pointer conversion in expression
+win32\vid_dll.c(740): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1349): note: see declaration of 'putenv'
+  vid_menu.c
+win32\vid_menu.c(72): warning C4100: 'unused': unreferenced formal parameter
+win32\vid_menu.c(105): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+win32\vid_menu.c(113): warning C4100: 'unused': unreferenced formal parameter
+win32\vid_menu.c(170): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+win32\vid_menu.c(175): warning C4996: 'stricmp': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _stricmp. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\string.h(568): note: see declaration of 'stricmp'
+win32\vid_menu.c(184): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1349): note: see declaration of 'putenv'
+win32\vid_menu.c(186): warning C4996: 'putenv': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _putenv. See online help for details.
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.10240.0\ucrt\stdlib.h(1349): note: see declaration of 'putenv'
+win32\vid_menu.c(118): warning C4100: 'unused': unreferenced formal parameter
+win32\vid_menu.c(201): warning C4210: nonstandard extension used: function given file scope
+win32\vid_menu.c(199): warning C4100: 'unused': unreferenced formal parameter
+  Generating Code...
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\snd_win.c(692): warning C4701: potentially uninitialized local variable 's' used
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\net_wins.c(124): warning C4715: 'NET_CompareAdr': not all control paths return a value
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\net_wins.c(154): warning C4715: 'NET_CompareBaseAdr': not all control paths return a value
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\net_wins.c(235): warning C4706: assignment within conditional expression
+c:\users\ryana\desktop\git2018\game-mod-q2\win32\net_wins.c(427): warning C4701: potentially uninitialized local variable 'net_socket' used
+  quake2.vcxproj -> C:\Users\ryana\Desktop\git2018\Game-Mod-Q2\.\release\quake2.exe

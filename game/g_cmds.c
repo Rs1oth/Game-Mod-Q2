@@ -969,11 +969,24 @@ void Cmd_HeavyAttack(edict_t *ent)
 		{
 			if (tr.ent->takedamage)
 			{
-				if (ent->client->pers.stance != tr.ent->client->pers.stance) {
-					T_Damage(tr.ent, ent, ent, forward, tr.endpos, tr.plane.normal, damage, kick, 0, 0);
+			//	if (ent->client->pers.stance != tr.ent->client->pers.stance) {
+				//	T_Damage(tr.ent, ent, ent, forward, tr.endpos, tr.plane.normal, damage, kick, 0, 0);
+				//}
+				//else {
+				//	gi.cprintf(ent, PRINT_HIGH, "Oppoenent Blocked\n");
+				//}
+
+				if (ent->client->pers.stance == GUARD_LEFT && tr.ent->client->pers.stance == GUARD_RIGHT) {
+					gi.cprintf(ent, PRINT_HIGH, "Oppoenent Blocked\n");
+				}
+				else if (ent->client->pers.stance == GUARD_RIGHT && tr.ent->client->pers.stance == GUARD_LEFT) {
+					gi.cprintf(ent, PRINT_HIGH, "Oppoenent Blocked\n");
+				}
+				else if (ent->client->pers.stance == GUARD_TOP && tr.ent->client->pers.stance == GUARD_TOP) {
+					gi.cprintf(ent, PRINT_HIGH, "Oppoenent Blocked\n");
 				}
 				else {
-					gi.cprintf(ent, PRINT_HIGH, "Oppoenent Blocked\n");
+					T_Damage(tr.ent, ent, ent, forward, tr.endpos, tr.plane.normal, damage, kick, 0, 0,MOD_SWORD);
 				}
 			}
 			else

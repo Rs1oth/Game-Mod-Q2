@@ -380,6 +380,10 @@ void G_SetStats (edict_t *ent)
 	int			index, cells;
 	int			power_armor_type;
 
+	//Stance in Stats
+	ent->client->ps.stats[STAT_STANCE] = ent->client->pers.stance;
+
+
 	//
 	// health
 	//

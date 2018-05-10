@@ -780,6 +780,8 @@ char *dm_statusbar =
   "xv 64 "
   "stat_string 16 "
 "endif "
+
+
 ;
 
 

@@ -383,6 +383,10 @@ void ClientObituary (edict_t *self, edict_t *inflictor, edict_t *attacker)
 				message = "tried to invade";
 				message2 = "'s personal space";
 				break;
+			case MOD_SWORD:
+				message = " was cut into peices by";
+				message2 = "'s sword";
+				break;
 			}
 			if (message)
 			{
@@ -1259,6 +1263,9 @@ void PutClientInServer (edict_t *ent)
 	// force the current weapon up
 	client->newweapon = client->pers.weapon;
 	ChangeWeapon (ent);
+
+	gi.cprintf(ent, PRINT_HIGH,"Please have Binds :: bind MOUSE2 'heavyattack' :: bind q 'stanceleft' :: bind e 'stancetop' :: bind f 'stanceright'.\n");
+	
 }
 
 /*

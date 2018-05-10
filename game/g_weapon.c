@@ -18,7 +18,7 @@ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA  02111-1307, USA.
 
 */
 #include "g_local.h"
-
+#include "m_player.h"
 
 /*
 =================
@@ -941,12 +941,23 @@ void fire_sword(edict_t *self, vec3_t start, vec3_t aimdir, int damage, int kick
 		{
 			if (tr.ent->takedamage)
 			{
-				if (self->client->pers.stance != tr.ent->client->pers.stance) {
-					T_Damage(tr.ent, self, self, aimdir, tr.endpos, tr.plane.normal, damage, kick, 0, 0);
-				}
-				else {
+
+				//if (self->client->pers.stance != tr.ent->client->pers.stance) {
+				//	T_Damage(tr.ent, self, self, aimdir, tr.endpos, tr.plane.normal, damage, kick, 0, 0);
+				//}
+				if (self->client->pers.stance == GUARD_LEFT && tr.ent->client->pers.stance == GUARD_RIGHT) {
 					gi.cprintf(self, PRINT_HIGH, "Oppoenent Blocked\n");
 				}
+				else if (self->client->pers.stance == GUARD_RIGHT && tr.ent->client->pers.stance == GUARD_LEFT) {
+					gi.cprintf(self, PRINT_HIGH, "Oppoenent Blocked\n");
+				}
+				else if (self->client->pers.stance == GUARD_TOP && tr.ent->client->pers.stance == GUARD_TOP) {
+					gi.cprintf(self, PRINT_HIGH, "Oppoenent Blocked\n");
+				}
+				else {
+					T_Damage(tr.ent, self, self, aimdir, tr.endpos, tr.plane.normal, damage, kick, 0, 0, MOD_SWORD);
+				}
+				
 			}
 			else
 			{
