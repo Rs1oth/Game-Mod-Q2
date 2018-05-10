@@ -986,7 +986,7 @@ void Cmd_HeavyAttack(edict_t *ent)
 					gi.cprintf(ent, PRINT_HIGH, "Oppoenent Blocked\n");
 				}
 				else {
-					T_Damage(tr.ent, ent, ent, forward, tr.endpos, tr.plane.normal, damage, kick, 0, 0,MOD_SWORD);
+					T_Damage(tr.ent, ent, ent, forward, tr.endpos, tr.plane.normal, damage, kick, 0, MOD_SWORD);
 				}
 			}
 			else

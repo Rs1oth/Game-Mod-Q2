@@ -955,7 +955,8 @@ void fire_sword(edict_t *self, vec3_t start, vec3_t aimdir, int damage, int kick
 					gi.cprintf(self, PRINT_HIGH, "Oppoenent Blocked\n");
 				}
 				else {
-					T_Damage(tr.ent, self, self, aimdir, tr.endpos, tr.plane.normal, damage, kick, 0, 0, MOD_SWORD);
+					T_Damage(tr.ent, self, self, aimdir, tr.endpos, tr.plane.normal, damage, kick, 0, MOD_SWORD);
+					
 				}
 				
 			}
