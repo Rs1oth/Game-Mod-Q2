@@ -7,7 +7,7 @@ How to get started:
 
 2.)Open the console and type "bind q stanceleft", "bind e stancetop", "bind f stanceright", and "bind MOUSE2 heavyattack"
 
-3.)After than open in game inventory with i, and use the ] key to scroll over to sword and hit enter
+3.)After than open in game inventory with tab, and use the ] or [ key to scroll over to sword and hit tab to leave inventory
 
 How to play:
 1.) Stances: q,e,and f with bring you to the left, top, and right stances respectivly.
